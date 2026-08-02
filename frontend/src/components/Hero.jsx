@@ -20,7 +20,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-6xl w-full">
         {/* Genre tags */}
         <div className="flex flex-wrap gap-2 mb-8">
-          {['Afrobeats', 'Amapiano', 'Trap', 'Open Format'].map(genre => (
+          {['Afrobeats', 'Amapiano', 'Hip-Hop', 'Open Format'].map(genre => (
             <span
               key={genre}
               className="text-xs text-tk-muted border border-tk-border px-3 py-1 tracking-widest uppercase font-body"

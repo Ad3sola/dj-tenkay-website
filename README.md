@@ -48,9 +48,9 @@ This project is built using **Agile** with 2-week sprints. Each sprint has a doc
 
 | Sprint | Goal | Status |
 |---|---|---|
-| Sprint 1 | Hero landing page — live at domain | 🟡 In Progress |
-| Sprint 2 | Content sections — About, Music, Gallery | ⬜ Planned |
-| Sprint 3 | Booking form + FastAPI backend + PostgreSQL | ⬜ Planned |
+| Sprint 1 | Hero landing page — live at domain | Completed ✅ |
+| Sprint 2 | Content sections — About, Music, Gallery | Completed ✅|
+| Sprint 3 | Booking form + FastAPI backend + PostgreSQL | In progress |
 | Sprint 4 | Animations, polish, Docker, full deployment | ⬜ Planned |
 
 ---

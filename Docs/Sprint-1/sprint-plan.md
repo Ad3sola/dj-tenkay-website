@@ -3,7 +3,7 @@
 **Sprint Goal:** Get a live, branded hero landing page deployed at DJ Tenkay's domain.
 
 **Duration:** 2 weeks
-**Status:** 🟡 In Progress
+**Status:** Completed 
 
 ---
 

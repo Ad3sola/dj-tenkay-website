@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Music from './components/Music'
 import Gallery from './components/Gallery'
+import Booking from './components/Booking'
 import Footer from './components/Footer'
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
         <About />
         <Music />
         <Gallery />
+        <Booking />
       </main>
       <Footer />
     </div>

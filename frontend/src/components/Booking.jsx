@@ -32,7 +32,7 @@ export default function Booking() {
     setStatus('loading')
 
     try {
-      const res = await fetch('http://127.0.0.1:8000/booking', {
+     const res = await fetch('https://your-railway-url.up.railway.app/booking', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),

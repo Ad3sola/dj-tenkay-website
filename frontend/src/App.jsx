@@ -1,5 +1,6 @@
 import Nav from './components/Nav'
 import Hero from './components/Hero'
+import Stats from './components/Stats'
 import About from './components/About'
 import Music from './components/Music'
 import Gallery from './components/Gallery'

@@ -127,3 +127,8 @@ def create_booking(booking: BookingCreate, db: Session = Depends(get_db)):
 @app.get("/bookings")
 def get_bookings(db: Session = Depends(get_db)):
     return db.query(Booking).all()
+
+@app.get("/stats")
+def get_stats(db: Session = Depends(get_db)):
+    total_bookings = db.query(Booking).count()
+    return { "total_bookings": total_bookings }

@@ -35,7 +35,7 @@ export default function About() {
           <div className="flex flex-col gap-8">
             <div className="w-full aspect-[3/4] bg-tk-surface border border-tk-border overflow-hidden relative">
               <img
-                src="/assets/about-photo.jpg"
+                src="/assets/IMG_8517.jpeg"
                 alt="DJ Tenkay"
                 className="w-full h-full object-cover object-top"
               />

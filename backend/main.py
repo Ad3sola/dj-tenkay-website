@@ -17,18 +17,21 @@ resend.api_key = os.getenv("RESEND_API_KEY")
 
 app = FastAPI()
 
+origins = [
+    "http://localhost:5173",
+    "https://bytenkay.com",
+    "https://www.bytenkay.com",
+    "http://bytenkay.com",
+    "http://www.bytenkay.com",
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "https://bytenkay.com",
-        "https://www.bytenkay.com",
-    ],
+    allow_origins=origins,
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
 )
-
 def send_confirmation_email(booking: BookingCreate):
     receiver = os.getenv("EMAIL_RECEIVER")
 

@@ -44,32 +44,26 @@ export default function Music() {
           Follow along to catch every mix as it drops.
         </p>
 
-        {/* Coming soon featured mix area */}
-        <div className="w-full bg-tk-surface border border-tk-border p-12 flex flex-col items-center justify-center text-center mb-12 relative overflow-hidden">
-          {/* Ambient glow */}
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-tk-accent/10 rounded-full blur-3xl pointer-events-none" />
-
-          {/* Fake waveform */}
-          <div className="flex items-end gap-1 mb-8 h-16 relative z-10">
-            {[3,6,9,14,10,16,8,12,5,18,11,7,15,9,13,6,10,4,8,12,7,15,9,11,6].map((h, i) => (
-              <div
-                key={i}
-                className="w-1.5 bg-tk-accent/40 rounded-full"
-                style={{ height: `${h * 3}px` }}
-              />
-            ))}
+        {/* Featured YouTube embed */}
+        <div className="mb-12">
+          <p className="text-tk-muted text-xs tracking-widest uppercase font-body mb-4">
+            Latest Mix
+          </p>
+          <div className="relative w-full border border-tk-border overflow-hidden"
+            style={{ paddingBottom: '56.25%' }}>
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/itlUm99e1mo"
+              title="DJ Tenkay Mix"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           </div>
-
-          <p className="font-display text-3xl text-tk-text mb-2 relative z-10">
-            MIXES DROPPING SOON
-          </p>
-          <p className="text-tk-muted text-sm font-body tracking-wider relative z-10">
-            Follow on YouTube and TikTok to be the first to hear them.
-          </p>
         </div>
 
         {/* Platform cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-tk-border">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-tk-border mb-12">
           {platforms.map(({ name, handle, description, url, icon }) => (
             <a
               key={name}
@@ -94,7 +88,7 @@ export default function Music() {
         </div>
 
         {/* Genres */}
-        <div className="mt-12">
+        <div>
           <p className="text-tk-muted text-xs tracking-widest uppercase font-body mb-6">
             What You'll Hear
           </p>

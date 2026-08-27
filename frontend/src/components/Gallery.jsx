@@ -15,12 +15,6 @@ const media = [
   },
   {
     type: 'video',
-    file: '/assets/gallery/TTU_spring_fest_mix.mp4',
-    event: 'Texas Tech Springfest',
-    label: 'Springfest Mix',
-  },
-  {
-    type: 'video',
     file: '/assets/gallery/E488DACC-7FFB-4867-81BA-0623E7502BE6.mp4',
     event: "LOTP — Control the Traffic",
     label: "TXST Homecoming '25",

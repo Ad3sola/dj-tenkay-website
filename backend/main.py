@@ -7,7 +7,7 @@ import os
 
 from database import engine, get_db, Base
 from models import Booking
-from Docs.schemas import BookingCreate, BookingResponse
+from schemas import BookingCreate, BookingResponse
 
 load_dotenv()
 

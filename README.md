@@ -3,7 +3,7 @@
 > **"You don't want 100, you want Tenkay."**
 > *Open-format. Every genre. Every room. One name.*
 
-A full-stack personal business website for DJ Tenkay — an open-format DJ specializing in Afrobeats, Amapiano, and Trap. Built from scratch using React, Tailwind CSS, and Python (FastAPI) following an Agile development methodology.
+A full-stack personal business website for DJ Tenkay: an open-format DJ specializing in Afrobeats, Amapiano, and Trap. Built from scratch using React, Tailwind CSS, and Python (FastAPI) following an Agile development methodology.
 
 ---
 

@@ -50,8 +50,8 @@ This project is built using **Agile** with 2-week sprints. Each sprint has a doc
 |---|---|---|
 | Sprint 1 | Hero landing page — live at domain | Completed ✅ |
 | Sprint 2 | Content sections — About, Music, Gallery | Completed ✅|
-| Sprint 3 | Booking form + FastAPI backend + PostgreSQL | In progress |
-| Sprint 4 | Animations, polish, Docker, full deployment | ⬜ Planned |
+| Sprint 3 | Booking form + FastAPI backend + PostgreSQL | Completed ✅ |
+| Sprint 4 | Animations, polish, Docker, full deployment | Completed ✅ |
 
 ---
 
